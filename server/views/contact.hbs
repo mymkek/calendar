@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<h1>{{title}} + {{#if id}}: {{id}}{{/if}}</h1>
+{{#if emailsVisible}}
+    <p>emails:</p>
+    <ul>
+        {{#each emails}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+<p>Phone: {{phone}}{{kek}}</p>
+</body>
+<html>

@@ -1,0 +1,24 @@
+{
+  "name": "calendar-server",
+  "version": "1.0.0",
+  "description": "node js server for calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "start": "nodemon app.js"
+  },
+  "author": "mymkek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0",
+    "supertest": "^6.1.3"
+  }
+}
